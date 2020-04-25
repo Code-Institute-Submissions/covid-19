@@ -1,13 +1,32 @@
 body {
     font-family: 'Open Sans', sans-serif; 
 }
- .navbar{
-    background-color: transparent;
-    
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
 }
 
+.uppercase {
+    text-transform: uppercase;
+}
+.inline-block{
+    margin-top: 50px;
+}
+.general-sub {
+text-align: center;
+    font-weight: 300;
+    color: #099df3;
+}
 
+.inline-block {
+    display: inline-block;
+}
 
+.list-inline{
+    text-align: center;
+}
 header{
      min-height: 360px;
     background: url('../images/covid-2019.jpg') no-repeat center center;
@@ -31,6 +50,11 @@ header{
 
 .footer-container {}
 
+footer {
+    
 
-
+    background:  #080808;
+    color: #f7f7f7;
+    min-height: 120px;
+    margin: 0;
 }
