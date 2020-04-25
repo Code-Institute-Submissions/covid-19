@@ -5,16 +5,12 @@ body {
     background-color: transparent;
     
 }
-@media (max-width: 576px) {
- .navbar {
-    background-color: #323033;
-  }
-}
+
 
 
 header{
      min-height: 360px;
-    background: url('../images/covid.jpg') no-repeat center center fixed;
+    background: url('../images/covid-2019.jpg') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
