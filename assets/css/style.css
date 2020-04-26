@@ -8,28 +8,27 @@ h4 {
     margin: 0;
 }
 
+
 .uppercase {
     text-transform: uppercase;
+    
 }
 .inline-block{
     margin-top: 50px;
 }
 .general-sub {
 text-align: center;
-    font-weight: 300;
-    color: #099df3;
+    font-weight: 400;
 }
 
-.inline-block {
-    display: inline-block;
-}
+
 
 .list-inline{
     text-align: center;
 }
 header{
      min-height: 360px;
-    background: url('../images/covid-2019.jpg') no-repeat center center;
+    background: url('../images/corona2019.jpg') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -41,20 +40,36 @@ header{
 }
 
 
+.section-column{
+    background-color: rgb(169, 237, 243);
+}
 
+.bg-color-center-container{
+     background-color: rgb(169, 237, 243);
 
+}
 
+.info-container {
+    background-color: rgb(169, 237, 243);
+}
 
-
-.info-container {}
-
+.center-container-icon{
+    float: right;
+}
+.about-icon{
+    text-align: right;
+}
 .footer-container {}
 
 footer {
     
-
-    background:  #080808;
+background: url('../images/footer.jpg') no-repeat center center;
     color: #f7f7f7;
     min-height: 120px;
     margin: 0;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
 }
