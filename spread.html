@@ -10,7 +10,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:100,200,300,400,500,600,700&display=swap"
 		rel="stylesheet">
 	<link rel="stylesheet" href="assets/css/style.css">
-	<link rel="icon" href="assets/images/corona.ico" type="image" size="16x16">
+	<link rel="icon" href="assets/images/corona.ico">
 	<title>Covid-19</title>
 </head>
 
@@ -27,9 +27,9 @@
 
 			<div class="collapse navbar-collapse" id="navbarNavDropdown">
 				<ul class="navbar-nav ml-auto">
-					<li class="nav-item ml-1"><a class="nav-link " href="/index.html">About</a></li>
+					<li class="active nav-item ml-1"><a class="nav-link " href="/index.html">About</a></li>
 					<li class="nav-item ml-1"><a class="nav-link" href="/do.html">Do/Don't</a></li>
-					<li class="active nav-item ml-1"><a class="nav-link" href="/spread.html">Graphs</a></li>
+					<li class="nav-item ml-1"><a class="nav-link" href="/spread.html">Graphs</a></li>
 					<li class="nav-item ml-1 "><a class="nav-link" href="" data-toggle="modal"
 							data-target="#newsModal">News</a></li>
 				</ul>
@@ -39,105 +39,18 @@
 	<!-- information central-->
 
 
-
-	<section class="container-fluid info-container">
+	<section class="container-fluid bg-color-center-container graph-container">
 		<div class="row">
 			<div class="col">
-				<h2 class="section-heading mt-2 uppercase">About Covid-19</h2>
+				<h3 class="section-heading mt-3 uppercase">Graphic of spread and deaths over time!</h3>
 			</div>
 		</div>
-		<div class="row row-table">
-			<div class="col-10 offset-1 bg-color-about section-column">
-
-				<div class="row">
-					<div class="col-sm-4 ">
-						<div class="row">
-							<div class="col-10">
-								<h4 class=" mt-5 mb-3 uppercase"><i class="mr-5 fas fa-question-circle"></i>What is it?</h4>
-
-
-								<p>
-									Coronaviruses are a large family of viruses which may cause illness in animals or
-									humans. In humans,
-									several coronaviruses are known to cause respiratory infections ranging from the
-									common cold to more
-									severe diseases such as Middle East Respiratory Syndrome (MERS) and Severe Acute
-									Respiratory Syndrome
-									(SARS). The most recently discovered coronavirus causes coronavirus disease
-									COVID-19.</p>
-
-								<p> On February 11, 2020 the <b>World Health Organization</b> announced an official name
-									for
-									the disease that is
-									causing the 2019 novel coronavirus outbreak, first identified in Wuhan China. The
-									new name of this
-									disease is coronavirus disease 2019, abbreviated as <b>COVID-19</b>. In COVID-19,
-									‘CO’
-									stands for ‘corona,’
-									‘VI’ for ‘virus,’ and ‘D’ for disease. Formerly, this disease was referred to as
-									“2019 novel
-									coronavirus” or “2019-nCoV”.
-								</p>
-							</div>
-						</div>
-					</div>
-					<div class=" col-sm-8">
-						<div class="row">
-							<div class="col-10">
-								<h4 class=" mt-5 mb-3 uppercase"><i class="mr-5 fas fa-exclamation-circle"></i>Symptoms!</h4>
-								<p>
-
-									The most common symptoms of COVID-19 are fever, dry cough, and tiredness. Some
-									patients may have aches
-									and pains, nasal congestion, sore throat or diarrhea. These symptoms are usually
-									mild and begin
-									gradually.
-									Some people become infected but only have very mild symptoms. Most people
-									(about 80%) recover
-									from the disease without needing hospital treatment. Around 1 out of every 5 people
-									who gets COVID-19
-									becomes seriously ill and develops difficulty breathing. Older people, and those
-									with underlying medical
-									problems like high blood pressure, heart and lung problems, diabetes, or cancer ,
-									are at higher risk of
-									developing serious illness. However anyone can catch COVID-19 and become seriously
-									ill. Even people with
-									very mild symptoms of COVID-19 can transmit the virus. People of all ages who
-									experience fever, cough
-									and difficulty breathing should seek medical attention.
-									When to Seek Medical Attention
-									If you develop any of these emergency warning signs* for COVID-19 get medical
-									attention immediately:</p>
-								<ul>
-									<li> Trouble breathing </li>
-									<li> Persistent pain or pressure in the chest</li>
-									<li> New confusion or inability to arouse</li>
-									<li> Bluish lips or face</li>
-									<li> Sudden loss of smell and/or taste </li>
-								</ul>
-								<p>*This list is not all inclusive. Please consult your medical provider for any other
-									symptoms that are severe or concerning to you.
-
-									Call Emergency services if you have a medical emergency:<b> Notify the operator that you have, or
-								think you might have, COVID-19. If possible, put on a cloth face covering before
-								medical help arrives.</b>
-								</p>
-							</div>
-						</div>
-					</div>
-
-
-				</div>
-			</div>
-		</div>
-
+        <div class="row">
+            <div class="col mt-5 mb-5 text-center graph-col">
+                <img src="/assets/images/graph.jpg" class="img-fluid" alt="Responsive image">
+            </div>
+        </div>
 	</section>
-
-
-
-
-
-
 
 	<!-- Footer -->
 	<footer class="container-fluid">
@@ -191,7 +104,7 @@
 							<label for="repeatPassword">Repeat Password</label>
 							<input type="password" class="form-control" id="repeatPassword" >
                         </div>
-							<button type="submit" class="btn btn-primary">Submit</button>
+							<button type="submit" class="btn btn-success">Submit</button>
 					</form>
 				</div>
 			</div>

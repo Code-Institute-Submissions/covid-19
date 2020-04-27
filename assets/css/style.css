@@ -59,6 +59,10 @@ header{
 .about-icon{
     text-align: right;
 }
+
+.graph-col{
+    float: right;
+}
 .footer-container {}
 
 footer {
