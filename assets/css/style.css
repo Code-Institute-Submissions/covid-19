@@ -8,24 +8,25 @@ h4 {
     margin: 0;
 }
 
-
 .uppercase {
     text-transform: uppercase;
     
 }
+
 .inline-block{
     margin-top: 50px;
 }
+
 .general-sub {
 text-align: center;
     font-weight: 400;
 }
 
 
-
 .list-inline{
     text-align: center;
 }
+
 header{
      min-height: 360px;
     background: url('../images/corona2019.jpg') no-repeat center center;
@@ -63,7 +64,6 @@ header{
 .graph-col{
     float: right;
 }
-.footer-container {}
 
 footer {
     
